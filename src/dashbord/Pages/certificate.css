@@ -1,0 +1,46 @@
+.certificate{
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+}
+.certificate-h1a{
+    margin-top: 5%;
+    margin-left: 42%;
+}
+.certificate img{
+    width: 200px;
+    margin-left: 40%;
+}
+.certificate input{
+    margin-left: 42%;
+}
+.certificate-h1{
+    margin-left: 42%;
+}
+.certificate button{
+    border: none;
+    width: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 42%;
+}
+@media screen and (max-width: 768px){
+    .certificate{
+        width: 100%;
+    }
+    .certificate h1{
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    .certificate input{
+        margin-left: 25%;
+    }
+    .certificate img{
+        width: 100;
+    margin-left: 20%;
+    }
+    .certificate button{
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+}

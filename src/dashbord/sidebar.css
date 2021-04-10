@@ -1,0 +1,83 @@
+.dashbord-sidebar{
+    display: flex;
+    /* width: 20%; */
+}
+.sidebar{
+   width: 20%;
+   height: 100vh;
+   /* border: green 2px solid; */
+}
+.sidebarmenu{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.sidebarli{
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /* color: dfgh; */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#active{
+    background-color: #fabd3a;
+    color: #000;
+    
+}
+.sidebarli:hover{
+    cursor: pointer;
+    background-color: #fabd3a;
+    color: #000;
+}
+#sideicon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+#sidetitle{
+    flex: 70%;
+}
+.Profile{
+    width: 100%;
+    padding: 5% ; 
+}
+.userprofile{
+    width: 80px;
+    margin-left: 5%;
+}
+.right-dashbord{
+    width: 80%;
+}
+
+@media screen and (max-width: 768px){
+    .dashbord-sidebar{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+        height: 100%;
+        background-color: orange;
+    }
+    .sidebarmenu{
+        width: 100%;
+        display: flex;
+    }
+    .Profile{
+        display: none;
+    }
+    .right-dashbord{
+        width: 100%;
+    }
+    #sideicon{
+        display: none;
+    }
+    #sidetitle{
+        margin-left: 10px;
+    }
+}

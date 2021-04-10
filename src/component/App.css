@@ -1,0 +1,28 @@
+.scroll{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.73);
+    color: black;
+    z-index: 2;
+}
+.scroll .icon{
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-left: 10px;
+    animation: scrolltop 0.5s alternate ease infinite;
+}
+.fa-chevron-up{
+    color: black;
+}
+@keyframes scrolltop{
+    from{
+        transform: translateY(10px)
+    }
+    to{
+        transform: translateY(-10px)
+    }
+}

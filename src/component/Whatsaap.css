@@ -1,0 +1,30 @@
+.action{
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    width: 60px;
+    height: 60px;
+    background: #72EA69;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.action a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.fa-whatsapp{
+    font-size: 2.5rem;
+    margin-left: 5px;
+    animation: scrolltop 0.5s alternate ease infinite;
+}
+@keyframes scrolltop{
+    from{
+        transform: translateY(9px)
+    }
+    to{
+        transform: translateY(-5px)
+    }
+
+}

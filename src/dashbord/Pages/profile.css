@@ -1,0 +1,13 @@
+.profile-Dashbord{
+    width: 90%;
+    margin: auto;
+    padding-left:  35%;
+}
+.profile-Dashbord img{
+    width: 200px;
+    margin-top: 10%;
+}
+.profile-Dashbord h1{
+    margin-left: 10%;
+    padding: 10px;
+}

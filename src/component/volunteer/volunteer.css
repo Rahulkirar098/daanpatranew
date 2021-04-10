@@ -1,0 +1,57 @@
+.volunteer{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15vh;
+    display: flex;
+}
+.volunteer-form{
+    width: 50%;
+    padding: 50px;
+}
+.volunteer-input{
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    padding:8px 0 5px 0;
+    margin: 2%;
+    font-size:16px;
+    width: 100%;
+}
+.volunteer-input:focus{
+    border:none;	
+   outline:none;
+   border-bottom: 5px solid yellow;
+  }
+.volunteer button{
+    border: none;
+    width: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    /* color: #555; */
+    margin-left: 2%;
+}
+.right-volunteer{
+    width: 50%;
+    padding: 50px;
+}
+.right-volunteer img{
+  margin-left: 30%;
+}
+@media screen and (max-width: 768px){
+    .volunteer{
+        display: block;
+    }
+    .volunteer-form{
+        width: 100%;
+        padding: 0;
+    }
+    .right-volunteer{
+        width: 100%;
+        padding: 0;
+    }
+    .right-volunteer img{
+        width: 80%;
+        margin-left: 0;
+    }
+}

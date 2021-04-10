@@ -1,0 +1,89 @@
+.faq-page{
+  margin-top: 10%;
+}
+.faq-h1{
+  margin-left: 18%;
+  margin-bottom: 2%;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-top: 10%;
+}
+.faq-h1:hover{
+  text-decoration: line-through;
+  color: orange;
+}
+.faq{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 15%;
+  /* padding-left: 15%; */
+}
+
+.h1-Policy{
+  cursor: pointer;
+  margin-left: 10%;
+}
+.h1-Policy::after{
+  content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: orange;
+    transition: width .3s;
+}
+.h1-Policy:hover::after {
+  width: 37%;
+}
+
+.Privacy-policies{
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+.faq .p-Policy{
+  margin-top: 2%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.faq .p-Policy-1{
+  margin-top: 2%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.h3-Active{
+  margin-top: 2%;
+}
+.faq h3{
+  transition: all 0.5s ease;
+  padding: 5px;
+}
+.faq h3:hover{
+font-size: 2rem;
+color: orange;
+}
+.conditions{
+  width: 80%;
+  margin: auto;;
+}
+.h1-conditions{
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.conditions p{
+  margin-top: 2%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.h1-conditions::after{
+  content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: orange;
+    transition: width .3s;
+}
+.h1-conditions:hover::after {
+  width: 31%;
+}

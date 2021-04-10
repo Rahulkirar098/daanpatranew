@@ -1,0 +1,95 @@
+.whatwedo{
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+.wedo-h1{
+    color: gray;
+}
+.wedo-p{
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-top: 2%;
+}
+.wedo-pwf{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.Hunger{
+    width: 25%;
+    height: 70%;
+}
+.wedo-pwf p{
+    width: 80%;
+    line-height: 2;
+    font-size: 1.2rem;  
+    text-align: justify;
+
+}
+.wedo-pwf h2{
+    margin-bottom: 3%;
+}
+.Clothing{
+    width: 25%;
+    margin-left: 50px;
+}
+
+
+.Financial{
+    width: 25%;
+    margin-left: 80px;
+}
+.fas{
+    font-size: 3rem;
+    margin-bottom: 5%;
+    color: #CD9331;
+}
+.chart-digram{
+    width: 80%;
+    margin-left: 10%;
+}
+@media screen and (max-width: 768px){
+    .whatwedo{
+        width: 90%;
+        margin: auto;
+        height: 100%;
+        margin-top: 15vh;
+        
+    }
+    .wedo-p{
+        width: 100%;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+    .wedo-pwf{
+        width: 100%;
+        display: block;
+    }
+    .wedo-pwf p{
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+    .Hunger{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .Financial{
+        width: 100%;
+        margin-left: 0;
+    }
+    .Clothing{
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
+    .chart-digram{
+        width: 100%;
+        margin-left: 0;
+    }
+}
